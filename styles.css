@@ -1,6 +1,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background-color: #ccd6e0;
 }
 
 a {
@@ -20,4 +21,19 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+}
+
+#big-header {
+  display: flex;
+  color: white;
+  font-weight: 700;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(imgs/panorama-of-old-main-covered-in-autumn-foliage-fayetteville-arkansas-gregory-ballos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 30vh;
 }
