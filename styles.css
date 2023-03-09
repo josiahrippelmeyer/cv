@@ -80,9 +80,27 @@ h6 {
 .container {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1280px;
+  max-width: 70%;
 }
 
 .center {
   text-align: center;
+}
+
+.flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.flex-wide {
+  min-width: 100%;
+}
+
+.flex-25 {
+  max-width: 25%;
+}
+
+.flex-50 {
+  max-width: 50%;
 }
