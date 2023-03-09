@@ -85,12 +85,19 @@ h6 {
 
 .center {
   text-align: center;
+  margin: auto;
+  padding: 2%;
+}
+
+.space {
+  letter-spacing: 10px;
 }
 
 .flexbox {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 .flex-wide {
@@ -103,4 +110,9 @@ h6 {
 
 .flex-50 {
   max-width: 50%;
+}
+
+#profile-pic {
+  border: 2px solid rgb(199, 117, 29);
+  border-radius: 500px;
 }
