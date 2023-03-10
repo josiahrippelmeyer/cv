@@ -116,6 +116,11 @@ h6 {
   min-width: 100%;
 }
 
+.flex-notwide {
+  min-width: 60%;
+  margin: auto;
+}
+
 .flex-25 {
   width: 30%;
 }
@@ -134,10 +139,12 @@ h6 {
 
 #profile p,
 #experience p,
+#experience ul,
 #skills p,
+#skills ul,
+#awards p,
 #projects p,
 #contact p,
-#experience ul,
 #contact ul {
   font-size: 130%;
 }
