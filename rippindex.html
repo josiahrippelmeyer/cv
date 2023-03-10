@@ -32,193 +32,248 @@
       rel="stylesheet"
     />
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
     <title>Josiah Rippelmeyer</title>
   </head>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li>
+          <a href="#profile" class="nav-link scrollto active"
+            ><i class="bx bxs-user"></i> <span>Profile</span></a
+          >
+        </li>
+        <li>
+          <a href="#experience" class="nav-link scrollto"
+            ><i class="bx bxs-school"></i> <span>Experience</span></a
+          >
+        </li>
+        <li>
+          <a href="#skills" class="nav-link scrollto"
+            ><i class="bx bxs-book-content"></i>
+            <span>Skills &amp; Awards</span></a
+          >
+        </li>
+        <li>
+          <a href="#projects" class="nav-link scrollto"
+            ><i class="bx bxs-keyboard"></i> <span>Projects</span></a
+          >
+        </li>
+        <li>
+          <a href="#contact" class="nav-link scrollto"
+            ><i class="bx bxs-envelope"></i> <span>Contact</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+  </header>
   <body>
     <div id="para-1" class="parallax">
-      <div class="center-vh">
-        <h1>Josiah Rippelmeyer</h1>
+      <div class="center-vh container" data-aos="zoom-in" data-aos-delay="100">
+        <h1 id="name">Josiah Rippelmeyer</h1>
         <br />
-        <p>Educator and Developer</p>
+        <p>
+          <span
+            class="typed"
+            data-typed-items="Educator, Developer, Trainer, Designer, Researcher, Prompt Engineer"
+          ></span>
+        </p>
       </div>
     </div>
-    <nav></nav>
-    <div class="container flexbox">
-      <h1 id="profile" class="flex-wide space center">Profile</h1>
+    <div id="profile" class="container flexbox tall">
+      <h1 class="flex-wide space center">Profile</h1>
       <hr class="flex-wide" />
-      <div class="flex-25">
-        <h3 class="center">About Me</h3>
-        <p>
-          Results-driven educator with expertise in evidence-based
-          decision-making, data analysis, and project management. Strong
-          communicator, with front-end development teaching experience.
-        </p>
-      </div>
-      <div class="flex-50">
-        <img src="Imgs/circle-portrait.png" id="profile-pic" />
-      </div>
-      <div class="flex-25">
-        <strong><p>Full Name:</p></strong>
-        <p>Josiah Drake Rippelmeyer</p>
-        <strong><p>Age:</p></strong>
-        <p>30</p>
-        <strong><p>Location:</p></strong>
-        <p>Northwest Arkansas</p>
+      <div class="flexbox flex-wide">
+        <div class="flex-25">
+          <h3 class="center space">About Me</h3>
+          <p>
+            Results-driven educator with expertise in evidence-based
+            decision-making, data analysis, and project management. Strong
+            communicator, with front-end development teaching experience.
+          </p>
+        </div>
+        <div class="flex-50">
+          <img src="Imgs/circle-portrait.png" id="profile-pic" />
+        </div>
+        <div class="flex-25">
+          <strong><p>Full Name:</p></strong>
+          <p>Josiah Drake Rippelmeyer</p>
+          <strong><p>Age:</p></strong>
+          <p>30</p>
+          <strong><p>Degrees:</p></strong>
+          <p>M.S., M.A., & B.A.</p>
+        </div>
       </div>
     </div>
-    <br />
     <div id="para-2" class="parallax"></div>
-    <div>
-      <h1>Experience</h1>
-      <hr />
-      <h3>Education</h3>
+    <div id="experience" class="container flexbox tall">
+      <h1 class="flex-wide center space">Experience</h1>
+      <hr class="flex-wide" />
       <div>
-        <h4>Arkansas State University</h4>
-        <p>08/2019 - 05/2021</p>
-        <strong><p>M.S. in Education</p></strong>
-        <p>
-          With a major in Gifted, Talented, and Creative Education, the Master's
-          degree gave me tools to manage and facilitate creative projects using
-          data driven decision-making. Courses required me to build a gifted
-          education program from the ground up to meet programming stnadards and
-          success criteria.
-        </p>
-      </div>
-      <br />
-      <div>
-        <h4>University of Arkansas</h4>
-        <p>05/2015 - 05/2016</p>
-        <strong><p>M.A. in Teaching</p></strong>
-        <p>
-          This "5th year" Master's program taught me effective communication
-          skills through various mediums and cross-team collaboration on
-          large-scale, high-stakes projects.
-        </p>
-      </div>
-      <br />
-      <div>
-        <h4>University of Arkansas</h4>
-        <p>08/2011 - 05/2015</p>
-        <strong><p>B.A. in History</p></strong>
-        <p>
-          In undergrad, I discovered my passion for learning, developed
-          time-management skills, and pursued leadership opportunities in social
-          clubs and the restaurant I worked at during my time at the U of A.
-        </p>
-      </div>
-      <hr />
-      <h3>Work</h3>
-      <div>
-        <h4>Hellstern Middle School</h4>
-        <p>08/2020 - Present</p>
-        <p><strong>Gited and Talented Facilitator</strong></p>
-        <ul>
-          <li>
-            Raised and managed over $30,000 through grant writing and
-            fundraising to purchase computers, iPads, 3D printers, and other
-            equipment for a new design lab
-          </li>
-          <li>
-            Analyzed qualitative and quantitative data to identify problems,
-            inform key decisions, and meet quarterly goals in student
-            achievement, engagement, and growth
-          </li>
-          <li>
-            Routinely communicated findings and results with supervisors,
-            parents, and community stakeholders through email, newsletters,
-            in-person presentations, and videos
-          </li>
-          <li>
-            Designed and led trainings and professional development
-            opportunities for educators and staff on effective communication
-            strategies, media monitoring, and growing technology tools
-          </li>
-          <li>
-            Incorporated feedback from multiple team members to improve program
-            outcomes and raised our retention rate from 52% to 96%
-          </li>
-          <li>
-            Organized community partnerships with local leaders and
-            professionals (JB Hunt, Walmart, Kimbel, NCREPT, etc.)
-          </li>
-        </ul>
-        <p>Springdale, AR</p>
-      </div>
-      <br />
-      <div>
-        <h4>Hellstern Middle School</h4>
-        <p>08/2018 - 07/2020</p>
-        <p><strong>Social Studies Teacher</strong></p>
-        <ul>
-          <li>
-            Collaborated with cross-department teams to developed engaging and
-            rigorous curriculum through a variety of mediums to meet state
-            learning standards
-          </li>
-          <li>
-            Routinely assessed efficacy of lessons to allow for data driven
-            decision making.
-          </li>
-        </ul>
-        <p>Springdale, AR</p>
-      </div>
-      <br />
-      <div>
-        <h4>Shiloh Christian School</h4>
-        <p>08/2017 - 07/2018</p>
-        <p><strong>English and Social Studies Teacher</strong></p>
-        <ul>
-          <li>
-            Redesigned English Language Arts curriculum using research based
-            practices to better fit my audience's specific learning needs
-          </li>
-          <li>
-            Communicated with parents and school stakeholders through a
-            regularly updated website.
-          </li>
-        </ul>
-        <p>Springdale, AR</p>
-      </div>
-      <hr />
-      <h3>Volunteer</h3>
-      <div>
-        <h4>Food Service Volunteer</h4>
-        <p>08/2021 - Present</p>
-        <strong><p>Circles NWA</p></strong>
-        <p>
-          Cook, serve, and clean for families in poverty seeking upward mobility
-        </p>
-      </div>
-      <br />
-      <div>
-        <h4>Program Director</h4>
-        <p>08/2017 - 05/2019</p>
-        <strong><p>Heroes in Action</p></strong>
-        <p>
-          Developed and implemented tutoring curriculum for Marshallese students
-          in Springdale School District
-        </p>
+        <h3 class="center space bold">Education</h3>
+        <div>
+          <div>
+            <h4>Arkansas State University</h4>
+            <p><em>08/2019 - 05/2021</em></p>
+            <strong><p>M.S. in Education</p></strong>
+            <ul>
+              <li>Major in Gifted, Talented, and Creative Education</li>
+              <li>
+                Gave me tools to manage and facilitate creative projects using
+                data driven strategies
+              </li>
+              <li>
+                Built a gifted education program from the ground up to meet
+                programming standards and success criteria
+              </li>
+            </ul>
+          </div>
+          <br />
+          <div>
+            <h4>University of Arkansas</h4>
+            <p><em>2015 - 05/2016</em></p>
+            <strong><p>M.A. in Teaching</p></strong>
+            <ul>
+              <li>
+                Emphasis on effective communication skills through various
+                mediums
+              </li>
+              <li>
+                Gained valuable experience through cross-team collaboration on
+                large-scale, high-stakes projects
+              </li>
+            </ul>
+          </div>
+          <br />
+          <div>
+            <h4>University of Arkansas</h4>
+            <p><em>08/2011 - 05/2015</em></p>
+            <strong><p>B.A. in History</p></strong>
+            <ul>
+              <li>Developed my personal philosophy of "life-long learning"</li>
+              <li>
+                Honed leadership skills through mentorship roles in social clubs
+              </li>
+              <li>
+                Waited tables to pay for school while maintaining a full ride
+                scholarship
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="flex-wide" />
+        <div>
+          <h3 class="center space bold">Work</h3>
+          <div>
+            <h4>Hellstern Middle School</h4>
+            <p><em>08/2020 - Present</em></p>
+            <p><strong>Gited and Talented Facilitator</strong></p>
+            <ul>
+              <li>
+                Raised and managed over $30,000 through grant writing and
+                fundraising to purchase computers, iPads, 3D printers, and other
+                equipment for a new design lab
+              </li>
+              <li>
+                Analyzed qualitative and quantitative data to identify problems,
+                inform key decisions, and meet quarterly goals in student
+                achievement, engagement, and growth
+              </li>
+              <li>
+                Routinely communicated findings and results with supervisors,
+                parents, and community stakeholders through email, newsletters,
+                in-person presentations, and videos
+              </li>
+              <li>
+                Designed and led trainings and professional development
+                opportunities for educators and staff on effective communication
+                strategies, media monitoring, and growing technology tools
+              </li>
+              <li>
+                Incorporated feedback from multiple team members to improve
+                program outcomes and raised our retention rate from 52% to 96%
+              </li>
+              <li>
+                Organized community partnerships with local leaders and
+                professionals (JB Hunt, Walmart, Kimbel, NCREPT, etc.)
+              </li>
+            </ul>
+            <p><i class="bx bxs-location-plus"></i>Springdale, AR</p>
+          </div>
+          <br />
+          <div>
+            <h4>Hellstern Middle School</h4>
+            <p><em>08/2018 - 07/2020</em></p>
+            <p><strong>Social Studies Teacher</strong></p>
+            <ul>
+              <li>
+                Collaborated with cross-department teams to developed engaging
+                and rigorous curriculum through a variety of mediums to meet
+                state learning standards
+              </li>
+              <li>
+                Routinely assessed efficacy of lessons to allow for data driven
+                decision making.
+              </li>
+            </ul>
+            <p><i class="bx bxs-location-plus"></i>Springdale, AR</p>
+          </div>
+          <br />
+          <div>
+            <h4>Shiloh Christian School</h4>
+            <p><em>08/2017 - 07/2018</em></p>
+            <p><strong>English and Social Studies Teacher</strong></p>
+            <ul>
+              <li>
+                Redesigned English Language Arts curriculum using research based
+                practices to better fit my audience's specific learning needs
+              </li>
+              <li>
+                Communicated with parents and school stakeholders through a
+                regularly updated website.
+              </li>
+            </ul>
+            <p><i class="bx bxs-location-plus"></i>Springdale, AR</p>
+          </div>
+        </div>
+        <hr class="flex-wide" />
+        <div class="flexbox">
+          <h3 class="flex-wide center space bold">Volunteer</h3>
+          <div class="flex-50">
+            <h4>Food Service Volunteer</h4>
+            <p><em>08/2021 - Present</em></p>
+            <strong><p>Circles NWA</p></strong>
+            <p>
+              Cook, serve, and clean for families in poverty seeking upward
+              mobility
+            </p>
+          </div>
+          <br />
+          <div class="flex-50">
+            <h4>Program Director</h4>
+            <p><em>08/2017 - 05/2019</em></p>
+            <strong><p>Heroes in Action</p></strong>
+            <p>
+              Developed and implemented tutoring curriculum for Marshallese
+              students in Springdale School District
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     <div id="para-3" class="parallax"></div>
-    <div>
-      <h1>Skills</h1>
-      <hr />
+    <div id="skills" class="container flexbox">
+      <h1 class="flex-wide center space">Skills</h1>
+      <hr class="flex-wide" />
       <ul>
         <li>Skill<span>&#11088; </span></li>
         <li>Skill<span>&#11088; </span></li>
@@ -229,10 +284,9 @@
         <li>Skill<span>&#11088; </span></li>
       </ul>
     </div>
-    <div>
-      <h1>Achievements</h1>
-      <hr />
-      <h3>Honors & Awards</h3>
+    <div class="container flexbox">
+      <h1 class="flex-wide center space">Awards</h1>
+      <hr class="flex-wide" />
       <div>
         <h4>Champion's Award</h4>
         <p>01/2020 & 01/2021</p>
@@ -256,13 +310,13 @@
       </div>
     </div>
     <div id="para-4" class="parallax"></div>
-    <div>
-      <h1>Projects</h1>
-      <hr />
+    <div id="projects" class="container flexbox">
+      <h1 class="flex-wide center space">Projects</h1>
+      <hr class="flex-wide" />
     </div>
-    <div>
-      <h1>Contact</h1>
-      <hr />
+    <div id="contact" class="container flexbox">
+      <h1 class="flex-wide center">Contact</h1>
+      <hr class="flex-wide" />
       <ul>
         <li>Josiahrippelmeyer@gmail.com</li>
         <li>(479)236-5031</li>
@@ -270,5 +324,25 @@
         <li><a href="www.linkedin.com/in/josiah-rippelmeyer">LinkedIn</a></li>
       </ul>
     </div>
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="vendor/aos/aos.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/typed.js/typed.min.js"></script>
+    <script src="vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
   </body>
 </html>
