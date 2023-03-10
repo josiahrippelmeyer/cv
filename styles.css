@@ -38,22 +38,22 @@ h6 {
 
 #para-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(imgs/oldmain.jpg);
+    url(Imgs/oldmain.jpg);
   height: 100%;
 }
 
 #para-2 {
-  background-image: url(imgs/fall-ark.jpg);
+  background-image: url(Imgs/fall-ark.jpg);
   height: 80%;
 }
 
 #para-3 {
-  background-image: url(imgs/fall-2.jpg);
+  background-image: url(Imgs/fall-2.jpg);
   height: 80%;
 }
 
 #para-4 {
-  background-image: url(imgs/glass-chapel.jpg);
+  background-image: url(Imgs/glass-chapel.jpg);
   height: 80%;
 }
 
