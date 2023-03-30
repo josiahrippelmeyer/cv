@@ -1,5 +1,6 @@
 <html>
   <head>
+    <title>Josiah Rippelmeyer</title>
     <!--Meta Data-->
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -10,8 +11,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
     <link rel="manifest" href="favicon/site.webmanifest" />
-    <!--CSS link-->
-    <link rel="stylesheet" href="styles.css" />
     <!--Google Fonts-->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -22,90 +21,105 @@
     <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
     <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-    <title>Josiah Rippelmeyer</title>
+    <!--CSS link-->
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <!-- ======= Mobile nav toggle button ======= -->
+
+  <!-- Mobile Nav Button -->
+
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex flex-column justify-content-center">
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li>
-          <a href="#profile" class="nav-link scrollto active">
-            <i class="bx bxs-user"></i>
-            <span>Profile</span>
-          </a>
-        </li>
-        <li>
-          <a href="#experience" class="nav-link scrollto">
-            <i class="bx bxs-school"></i>
-            <span>Experience</span>
-          </a>
-        </li>
-        <li>
-          <a href="#skills" class="nav-link scrollto">
-            <i class="bx bxs-book-content"></i>
-            <span>Skills &amp; Awards</span>
-          </a>
-        </li>
-        <li>
-          <a href="#projects" class="nav-link scrollto">
-            <i class="bx bxs-keyboard"></i>
-            <span>Projects</span>
-          </a>
-        </li>
-        <li>
-          <a href="#contact" class="nav-link scrollto">
-            <i class="bx bxs-envelope"></i>
-            <span>Contact</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
+
+  <!-- Header -->
+
+  <header>
+    <div id="header" class="d-flex flex-column justify-content-start">
+      <nav id="navbar" class="navbar nav-menu">
+        <ul>
+          <li>
+            <a href="#profile" class="nav-link scrollto active">
+              <i class="bx bxs-user"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link scrollto">
+              <i class="bx bxs-school"></i>
+              <span>Experience</span>
+            </a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link scrollto">
+              <i class="bx bxs-book-content"></i>
+              <span>Skills &amp; Awards</span>
+            </a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link scrollto">
+              <i class="bx bxs-keyboard"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link scrollto">
+              <i class="bx bxs-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
+
+  <!-- Title -->
+
   <body>
     <div id="para-1" class="parallax">
-      <div class="center-vh container" data-aos="zoom-in" data-aos-delay="100">
+      <div class="banner container-fluid" data-aos="zoom-in" data-aos-delay="100">
         <h1 id="name">Josiah Rippelmeyer</h1>
-        <br />
-        <p>
+        <p class="typed-box">
           <span
             class="typed"
             data-typed-items="Educator, Developer, Trainer, Designer, Researcher, Prompt Engineer"></span>
         </p>
       </div>
     </div>
-    <div id="profile" class="container flexbox tall">
-      <h1 class="flex-wide space center">Profile</h1>
-      <hr class="flex-wide" />
-      <div class="flexbox flex-wide">
-        <div class="flex-25">
-          <h3 class="center space">About Me</h3>
-          <p>
+
+    <!-- Profile -->
+
+    <div id="profile" class="text-center">
+      <h1 class="w-100">Profile</h1>
+      <br />
+      <div class="row">
+        <div class="col-lg-4 profile-box">
+          <h3 class="">About Me</h3>
+          <p class="about-me">
             Results-driven educator with expertise in evidence-based decision-making, data analysis, and project
-            management. Strong communicator, with front-end development teaching experience.
+            management. Strong communicator, with front-end development teaching experience. Avid reader, board game
+            enthusiast, and ameteur voice actor.
           </p>
         </div>
-        <div class="flex-50">
-          <img src="Imgs/circle-portrait.png" id="profile-pic" />
+        <div class="col-lg-4 profile-box d-flex align-items-center">
+          <img src="Imgs/circle-portrait.png" id="profile-pic" class="m-auto" />
         </div>
-        <div class="flex-25">
-          <strong><p>Full Name:</p></strong>
+        <div class="bio col-lg-4 profile-box">
+          <h4>Full Name:</h4>
           <p>Josiah Drake Rippelmeyer</p>
-          <strong><p>Age:</p></strong>
+          <h4>Age:</h4>
           <p>30</p>
-          <strong><p>Degrees:</p></strong>
+          <h4>Degrees:</h4>
           <p>M.S., M.A., & B.A.</p>
         </div>
       </div>
     </div>
+
+    <!-- Experience -->
+
     <div id="para-2" class="parallax"></div>
-    <div id="experience" class="container flexbox tall">
-      <h1 class="flex-wide center space">Experience</h1>
-      <hr class="flex-wide" />
+    <div id="experience" class="">
+      <h1 class="">Experience</h1>
+      <hr class="" />
       <div>
-        <h3 class="center space bold">Education</h3>
+        <h3 class="">Education</h3>
         <div>
           <div>
             <h4>Arkansas State University</h4>
@@ -119,7 +133,6 @@
               </li>
             </ul>
           </div>
-          <br />
           <div>
             <h4>University of Arkansas</h4>
             <p><em>2015 - 05/2016</em></p>
@@ -129,7 +142,6 @@
               <li>Gained valuable experience through cross-team collaboration on large-scale, high-stakes projects</li>
             </ul>
           </div>
-          <br />
           <div>
             <h4>University of Arkansas</h4>
             <p><em>08/2011 - 05/2015</em></p>
@@ -141,8 +153,7 @@
             </ul>
           </div>
         </div>
-
-        <hr class="flex-wide" />
+        <hr />
         <div>
           <h3 class="center space bold">Work</h3>
           <div>
@@ -180,7 +191,6 @@
               Springdale, AR
             </p>
           </div>
-          <br />
           <div>
             <h4>Hellstern Middle School</h4>
             <p><em>08/2018 - 07/2020</em></p>
@@ -197,7 +207,6 @@
               Springdale, AR
             </p>
           </div>
-          <br />
           <div>
             <h4>Shiloh Christian School</h4>
             <p><em>08/2017 - 07/2018</em></p>
@@ -224,7 +233,6 @@
             <strong><p>Circles NWA</p></strong>
             <p>Cook, serve, and clean for families in poverty seeking upward mobility</p>
           </div>
-          <br />
           <div class="flex-50">
             <h4>Program Director</h4>
             <p><em>08/2017 - 05/2019</em></p>
@@ -269,8 +277,9 @@
         </li>
       </ul>
     </div>
-    <br />
-    <br />
+
+    <!-- Awards -->
+
     <div id="awards" class="container flexbox">
       <h1 class="flex-wide center space">Awards</h1>
       <hr class="flex-wide" />
@@ -294,11 +303,13 @@
         <strong><p>Hellstern Middle School</p></strong>
       </div>
     </div>
+    <!-- Projects -->
     <div id="para-4" class="parallax"></div>
     <div id="projects" class="container flexbox">
       <h1 class="flex-wide center space">Projects</h1>
       <hr class="flex-wide" />
     </div>
+    <!-- Contact -->
     <div id="contact" class="container flexbox">
       <h1 class="flex-wide center">Contact</h1>
       <hr class="flex-wide" />
