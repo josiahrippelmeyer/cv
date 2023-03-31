@@ -49,8 +49,9 @@ h4 {
 }
 
 p {
-  font-size: 1.15rem;
+  font-size: 3vw;
   color: #8f8f8f;
+  font-weight: 600;
 }
 
 #profile,
@@ -283,6 +284,27 @@ p {
   height: 40%;
 }
 
+/* Mobile Banner */
+
+@media (max-width: 991px) {
+  .parallax {
+    background-attachment: scroll;
+    z-index: 1;
+  }
+
+  #para-2 {
+    display: none;
+  }
+
+  #para-3 {
+    display: none;
+  }
+
+  #para-4 {
+    display: none;
+  }
+}
+
 /* Profile */
 
 .about-me {
@@ -322,8 +344,21 @@ p {
 
 /* Experience */
 
+#experience {
+  color: #787878;
+}
+
 .job-title,
 .degree-title {
+  color: #f5931c;
+  font-size: 1rem;
+}
+
+.exp-collapse {
+  color: #000;
+}
+
+.exp-collapse:hover {
   color: #000;
 }
 
