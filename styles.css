@@ -225,7 +225,6 @@ p {
   text-align: center;
   text-shadow: 0 3px 0 black;
   color: #f9f5f6;
-  font-size: 2rem;
   font-weight: 700;
   margin-right: auto;
   margin-left: auto;
@@ -235,6 +234,19 @@ p {
   color: #fff;
   font-size: 2rem;
   min-height: auto;
+}
+
+/* Mobile Name, typed, and headings */
+
+@media (max-width: 991px) {
+  #name,
+  h1 {
+    font-size: 10vw;
+  }
+
+  .typed-box {
+    font-size: 5vw;
+  }
 }
 
 /* Paralax Images */
