@@ -7,7 +7,7 @@ html {
   height: 100%;
   font-family: "Raleway", sans-serif;
   color: #272829;
-  background-color: #f9f5f6;
+  background-color: #fff;
 }
 
 h1,
@@ -33,12 +33,13 @@ h1 {
   font-size: 3.5rem;
   letter-spacing: 5;
   font-weight: 700;
+  color: #d97904;
 }
 
 h3 {
   font-size: 2rem;
   letter-spacing: 2.5;
-  font-weight: 550;
+  font-weight: 500;
 }
 
 h4 {
@@ -48,7 +49,7 @@ h4 {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   color: #8f8f8f;
 }
 
@@ -213,6 +214,7 @@ p {
 #name {
   font-size: 5rem;
   margin-bottom: 5%;
+  color: #fff;
 }
 
 .banner {
@@ -319,6 +321,11 @@ p {
 }
 
 /* Experience */
+
+.job-title,
+.degree-title {
+  color: #000;
+}
 
 /* Skills */
 
