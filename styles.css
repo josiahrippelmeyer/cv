@@ -48,8 +48,9 @@ h4 {
   font-weight: 700;
 }
 
-p {
-  font-size: 1rem;
+p,
+li {
+  font-size: 1.15rem;
   color: #8f8f8f;
   font-weight: 600;
 }
@@ -348,18 +349,31 @@ p {
   color: #787878;
 }
 
-.job-title,
-.degree-title {
-  color: #f5931c;
-  font-size: 1rem;
-}
-
 .exp-collapse {
   color: #000;
 }
 
 .exp-collapse:hover {
   color: #000;
+}
+
+.card {
+  margin-top: 2%;
+}
+
+.card-title {
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  #experience h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+.card-subtitle {
+  color: #f5931c;
+  font-size: 1rem;
 }
 
 /* Skills */
