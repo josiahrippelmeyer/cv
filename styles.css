@@ -61,7 +61,7 @@ li {
 #awards,
 #projects,
 #contact {
-  padding: 7% 8%;
+  padding: 7% 10%;
 }
 
 /* Header */
@@ -243,8 +243,7 @@ li {
 /* Mobile Name, typed, and headings */
 
 @media (max-width: 991px) {
-  #name,
-  h1 {
+  #name {
     font-size: 10vw;
   }
 
@@ -309,7 +308,7 @@ li {
 /* Profile */
 
 .about-me {
-  text-align: justify;
+  text-align: left;
 }
 
 #profile-pic {
@@ -365,6 +364,10 @@ li {
   color: #000;
 }
 
+.card-subtitle {
+  color: #f5931c;
+}
+
 @media (max-width: 991px) {
   #experience h3 {
     font-size: 1.5rem;
@@ -372,15 +375,22 @@ li {
   }
 
 .card-subtitle {
-  color: #f5931c;
   font-size: 1rem;
 }
 
 /* Skills */
 
+
+
 /* Awards */
 
+#awards .card {
+  padding: 3%;
+}
+
 /* Projects */
+
+
 
 /* Contact */
 
