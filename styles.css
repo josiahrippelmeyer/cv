@@ -451,6 +451,10 @@ li {
   border-radius: 25px;
 }
 
+.bi-star-fill {
+  color: #f5931c;
+}
+
 /* Contact */
 
 .contact-icon {
